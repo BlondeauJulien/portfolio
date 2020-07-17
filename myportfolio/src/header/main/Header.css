@@ -1,0 +1,24 @@
+.header__navigation {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+}
+
+.header__navigation-items ul {
+  display: flex;
+}
+
+.header__navigation-items li {
+  margin: 0 0.4rem
+}
+
+.spacer {
+  flex: 1;
+}
+
+@media (min-width: 769px) {
+  .header__toggle-button {
+    display: none;
+  }
+}
