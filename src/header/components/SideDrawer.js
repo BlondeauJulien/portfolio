@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NavigationLinks from './NavigationLinks';
+
 import './SideDrawer.css';
 
 const SideDrawer = props => {
@@ -9,12 +11,7 @@ const SideDrawer = props => {
 	}
 	return (
 		<nav className={drawerClasses}>
-			<ul>
-				<li>Projets</li>
-				<li>Technologies</li>
-				<li>CV</li>
-				<li>Contact</li>
-			</ul>
+			<NavigationLinks withHomeButton={true}/>
 		</nav>
 	);
 };

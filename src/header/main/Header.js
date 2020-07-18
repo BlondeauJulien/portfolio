@@ -1,6 +1,7 @@
 import React from 'react';
 
 import DrawerToggleButton from '../components/DrawerToggleButton';
+import NavigationLinks from '../components/NavigationLinks';
 
 import './Header.css';
 
@@ -11,16 +12,11 @@ const Header = props => {
 		<header className="header">
 			<nav className="header__navigation">
 				<div className="header__logo">
-					<a>Julien Blondeau</a>
+					<a href="/">Julien Blondeau</a>
 				</div>
 				<div className="spacer" />
 				<div className="header__navigation-items">
-					<ul>
-						<li>Projets</li>
-						<li>Technologies</li>
-						<li>CV</li>
-						<li>Contact</li>
-					</ul>
+					<NavigationLinks />
 				</div>
 				<div className='header__toggle-button'>
 					<DrawerToggleButton drawerClickHandler={drawerClickHandler}/>

@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState } from 'react';
 
 import Header from './header/main/Header';
 import SideDrawer from './header/components/SideDrawer';
