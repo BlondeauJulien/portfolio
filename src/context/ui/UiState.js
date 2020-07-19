@@ -15,7 +15,7 @@ const UiState = props => {
   const changeLanguage = () => {
     let newLanguage;
     if(state.language === 'FR') {
-      newLanguage = 'UK'
+      newLanguage = 'GB'
     } else {
       newLanguage = 'FR';
     }

@@ -1,5 +1,5 @@
 export default {
-  UK : {
+  GB : {
     home: 'Home',
     projects: 'Projects',
     technologies: 'Technologies',
