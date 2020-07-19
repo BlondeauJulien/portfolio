@@ -12,7 +12,7 @@ const Header = props => {
 		<header className="header">
 			<nav className="header__navigation">
 				<div className="header__logo">
-					<a href="/"><i class="fas fa-code logo"></i></a>
+					<a href="/"><i className="fas fa-code logo"></i></a>
 				</div>
 				<div className="spacer" />
 				<div className="header__navigation-items">
