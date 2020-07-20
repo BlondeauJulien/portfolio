@@ -1,0 +1,24 @@
+.presentation {
+  text-align: center;
+  margin: 6rem;
+  font-family: 'Anton', sans-serif;
+}
+
+.presentation__text {
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #1ba49c;
+}
+
+.test {
+  display: inline-block;
+}
+
+.test2 {
+  font-size: 3rem;
+}
+
+.test2 span {
+  text-decoration: underline;
+}
