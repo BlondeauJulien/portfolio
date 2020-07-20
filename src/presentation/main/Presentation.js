@@ -13,24 +13,10 @@ const Presentation = () => {
   return (
     <div className="presentation">
       <div className="presentation__text">
-        <p className="test">{content[language].presentation}</p>
+        <p className="presentation__first-line">{content[language].presentation}</p>
         {' '}
-        <h1 className="test">JULIEN BLONDEAU</h1>
-        <p className="test2">{content[language].whoIAm1} <span>{content[language].whoIAm2}</span></p>
-      </div>
-      <div className="techno">
-        {/* JS
-            ES6
-            nodeJS
-            mongodb
-            git
-            react
-            angular
-            html
-            css
-            typescript
-            express 
-        */}
+        <h1 className="presentation__first-line">JULIEN BLONDEAU</h1>
+        <p className="presentation__second-line">{content[language].whoIAm1} <span>{content[language].whoIAm2}</span></p>
       </div>
     </div>
   )

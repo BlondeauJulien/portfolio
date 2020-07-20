@@ -16,7 +16,7 @@ const NavigationLinks = props => {
       {props.withHomeButton && (
         <li className="navigation__link"><a href="/">{content[language].home}</a></li>
       )}
-      <li className="navigation__link"><a href="/">{content[language].projects}</a></li>
+      <li className="navigation__link"><a href="#projects">{content[language].projects}</a></li>
       <li className="navigation__link"><a href="/">{content[language].technologies}</a></li>
       <li className="navigation__link"><a href="/">{content[language].resume}</a></li>
       <li className="navigation__link"><a href="/">{content[language].contact}</a></li>

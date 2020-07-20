@@ -1,0 +1,10 @@
+#projects {
+  text-align: center;
+  margin: auto;
+}
+
+#projects h2 {
+  color: #1ba49c;
+  font-size: 1.7rem;
+  text-decoration: underline;
+}
