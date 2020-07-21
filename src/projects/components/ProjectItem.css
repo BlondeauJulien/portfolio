@@ -1,0 +1,13 @@
+.project-item {
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 90%;
+  background: #f5f6f7;
+  border-radius: 6px;
+}
+
+.project-item__content {
+  display: flex;
+  line-height: 1.3rem;
+}
