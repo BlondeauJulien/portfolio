@@ -13,7 +13,7 @@ const Projects = () => {
   const { language } = uiContext;
   return (
     <div id="projects">
-      <h2>{}</h2>
+      <h2>{language === "FR" ? 'Projets' : 'Projects'}</h2>
       {projectsContent.map(project => (<ProjectItem content={project} language={language}/>))}
     </div>
   )

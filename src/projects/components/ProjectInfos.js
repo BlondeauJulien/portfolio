@@ -10,6 +10,9 @@ const ProjectInfos = props => {
       <ul>
         <li>{content.frontend}</li>
         <li>{content.backend}</li>
+        {content.test && (
+          <li>Test: {content.test}</li>
+        )}
         <li>{content.responsive}</li>
       </ul>
       {content.keyFeatures && (
