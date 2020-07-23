@@ -1,27 +1,34 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import './ProjectInfos.css';
 
-const ProjectInfos = () => {
+const ProjectInfos = props => {
+  const { content } = props;
   return (
     <div className="project-item__content__infos">
-      <h3>Web Application Full stack</h3>
-      <p>Front End with: HTML, CSS, Javascript ES6, React</p>
-      <p>Back End with: NodeJS, mongoDB</p>
-      <p>Application responsive tablette et mobile</p>
-      <h3>Key features:</h3>
-      <p>Secure user creation, édition, deletion</p>
-      <p>Recette création, édition, deletion</p>
-      <p>Add recipe to your favorite list</p>
-      <p>Rate and comment recipes</p>
-      <h3 className="project-item__content__infos__about-title">A propos:</h3>
-      <p>
-        Je me suis lancé dans la réalisation de cette application juste après avoir fini un cours sur React. 
-        Ayant aussi les bases du Back End avec NodeJS et MongoDB j'ai décidé 
-      </p>
+      <h3>{content.appType}</h3>
+      <ul>
+        <li>{content.frontend}</li>
+        <li>{content.backend}</li>
+        <li>{content.responsive}</li>
+      </ul>
+      {content.keyFeatures && (
+        <Fragment>
+          <h3>{content.keyFeaturesTitle}:</h3>
+          <ul>
+            {
+              content.keyFeatures.map(f => (<li>{f}</li>))
+            }
+          </ul>
+        </Fragment>
+      )}
+      <h3 className="project-item__content__infos__about-title">{content.aboutTitle}:</h3>
+        {
+          content.about.map(t => (<p>{t}</p>))
+        }  
       <div className="project-item__content__infos__buttons">
-        <button className="btn-code">SEE THE CODE</button>
-        <button className="btn-website">SEE THE WEBSITE <i className="fas fa-chevron-circle-right"></i></button>
+        <a href={content.codeLink} target="_blank" rel="noopener noreferrer" className="btn-code">{content.codeBtnText}</a>
+        <a href={content.siteLink} target="_blank" rel="noopener noreferrer" className="btn-website">{content.siteBtnText}{` `}<i className="fas fa-chevron-circle-right"></i></a>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import './resetcss.css';
 
 html {
@@ -16,6 +17,8 @@ body {
     max-width: 1200px;
     margin: auto;
     padding-top: 1.2rem;
-    font-family: 'Anton', sans-serif;
+/*     font-family: 'Anton', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+
     color: #63707e;
 }

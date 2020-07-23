@@ -6,13 +6,15 @@ import ProjectInfos from './ProjectInfos';
 
 import './ProjectItem.css';
 
-const ProjectItem = () => {
+const ProjectItem = props => {
+  const { content, language } = props;
+
   return (
     <div className="project-item">
-      <ProjectHeader />
+      <ProjectHeader title={content.title}/>
       <div className="project-item__content">
-        <ProjectImages />
-        <ProjectInfos />
+        <ProjectImages images={content.images}/>
+        <ProjectInfos content={content[language]}/>
       </div>
     </div>
   )
