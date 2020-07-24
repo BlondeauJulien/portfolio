@@ -11,3 +11,9 @@
   display: flex;
   line-height: 1.3rem;
 }
+
+@media (max-width: 900px) {
+  .project-item__content {
+    flex-wrap: wrap;
+  }
+}

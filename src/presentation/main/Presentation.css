@@ -21,3 +21,37 @@
 .presentation__second-line span {
   text-decoration: underline;
 }
+
+
+@media (max-width: 900px) {
+  .presentation {
+    margin: 6rem 1rem 3rem 1rem;
+  }
+  
+  .presentation__text {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+
+  .presentation__second-line {
+    font-size: 2.2rem;
+    line-height: 3rem;
+
+  }
+}
+
+@media (max-width: 425px) {
+  .presentation {
+    margin: 3rem 0.5rem 1.5rem 0.5rem;
+  }
+  
+  .presentation__text {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .presentation__second-line {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}

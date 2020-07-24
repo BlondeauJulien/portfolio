@@ -84,4 +84,39 @@
     margin-left: 1rem;
   }
   
+  .header__logo {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+  
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #1ba49c;
+    position: absolute;
+    top: -42px;
+    margin-top: 10px;
+  }
+  
+  .header__logo:after {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+  
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 49px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: #1ba49c;
+  }
+  
+  .logo {
+    color: #fff;
+    position: absolute;
+  
+    top: 33px;
+    right: -21px;
+    z-index: 1;
+  }
 }

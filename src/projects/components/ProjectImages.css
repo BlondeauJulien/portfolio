@@ -1,3 +1,15 @@
 .project-item__carousel {
   width: 40%;
 }
+
+@media (max-width: 900px) {
+  .project-item__carousel {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-item__carousel {
+    width: 100%;
+  }
+}
