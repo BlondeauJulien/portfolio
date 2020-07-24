@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <h2>{language === "FR" ? 'Mes projets' : 'My projects'}</h2>
-      {projectsContent.map(project => (<ProjectItem content={project} language={language}/>))}
+      {projectsContent.map((project, i) => (<ProjectItem key={'project' + i} content={project} language={language}/>))}
     </div>
   )
 }

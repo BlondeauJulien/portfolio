@@ -11,7 +11,7 @@ const SideDrawer = props => {
 	}
 	return (
 		<nav className={drawerClasses}>
-			<NavigationLinks withHomeButton={true}/>
+			<NavigationLinks withHomeButton={true} drawerClickHandler={props.drawerClickHandler}/>
 		</nav>
 	);
 };

@@ -10,16 +10,22 @@ const NavigationLinks = props => {
   const uiContext = useContext(UiContext);
 
   const { language } = uiContext;
+
+  const closeDrawerOnClick = () => {
+    if(props.drawerClickHandler) {
+      props.drawerClickHandler(false);
+    }
+  }
   
   return (
     <ul className="navigation" >
       {props.withHomeButton && (
-        <li className="navigation__link"><a href="/">{content[language].home}</a></li>
+        <li className="navigation__link" onClick={closeDrawerOnClick}><a href="/">{content[language].home}</a></li>
       )}
-      <li className="navigation__link"><a href="#projects">{content[language].projects}</a></li>
-      <li className="navigation__link"><a href="/">{content[language].technologies}</a></li>
-      <li className="navigation__link"><a href="/">{content[language].resume}</a></li>
-      <li className="navigation__link"><a href="/">{content[language].contact}</a></li>
+      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#projects">{content[language].projects}</a></li>
+      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="/">{content[language].technologies}</a></li>
+      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="/">{content[language].resume}</a></li>
+      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="/">{content[language].contact}</a></li>
     </ul>
   )
 }

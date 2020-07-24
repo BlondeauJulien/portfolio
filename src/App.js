@@ -16,7 +16,7 @@ function App() {
     <UiState>
       <div className="App">
         <Header drawerClickHandler={setSideDrawerOpen} />
-        <SideDrawer show={sideDrawerOpen}/>
+        <SideDrawer show={sideDrawerOpen} drawerClickHandler={setSideDrawerOpen}/>
         {sideDrawerOpen && <Backdrop drawerClickHandler={setSideDrawerOpen} /> }
         <Presentation />
         <Projects />

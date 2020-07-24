@@ -47,13 +47,8 @@ const learnapp = {
     aboutTitle: 'About',
     about: [
       `
-      Après avoir commencé à apprendre le norvégien et utilisé plusieurs applications d'apprentissage de langue je me suis dit que 
-      créer ma propros petite application pourrait faire un bon projet portfolio. J'avais aussi envie d'un projet qui permette 
-      l'implementation de plusieurs rôles (Administrateurs, modérateurs et utilisateurs) et ce que j'ai pu réaliser via celui-ci.
-    `,
-      `
         After I started to learn norwegian and used a few languages apps I thought that building my own small language application could make 
-        a great portfolio project. I also wanted to implement different roles (Admins, Moderators, Users) and it was ticking the box.
+        a great portfolio project. I also wanted to implement different roles in my next project (Admins, Moderators, Users) and it was ticking the box.
       `,
 
     ],

@@ -8,8 +8,8 @@ const ProjectImages = props => {
   return (
     <div className="project-item__carousel">
       <Carousel>
-        {props.images.map(img => {
-          return (<div>
+        {props.images.map((img, i) => {
+          return (<div key={props.title + i}>
             <img src={img} alt="project preview"/>
           </div> )
         })}

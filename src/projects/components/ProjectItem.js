@@ -13,8 +13,8 @@ const ProjectItem = props => {
     <div className="project-item">
       <ProjectHeader title={content.title}/>
       <div className="project-item__content">
-        <ProjectImages images={content.images}/>
-        <ProjectInfos content={content[language]}/>
+        <ProjectImages images={content.images} title={content.title}/>
+        <ProjectInfos content={content[language]} title={content.title}/>
       </div>
     </div>
   )
