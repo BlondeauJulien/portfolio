@@ -17,8 +17,15 @@ body {
     max-width: 1200px;
     margin: auto;
     padding-top: 1.2rem;
-/*     font-family: 'Anton', sans-serif; */
     font-family: 'Roboto', sans-serif;
 
     color: #63707e;
 }
+
+.section-title {
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    font-family: 'Anton', sans-serif;
+  }

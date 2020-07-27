@@ -6,6 +6,7 @@ import Backdrop from './header/components/Backdrop';
 import Presentation from './presentation/main/Presentation';
 import UiState from './context/ui/UiState';
 import Projects from './projects/main/Projects';
+import Technologies from './technologies/main/Technologies';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         {sideDrawerOpen && <Backdrop drawerClickHandler={setSideDrawerOpen} /> }
         <Presentation />
         <Projects />
+        <Technologies />
       </div>
     </UiState>
   );
