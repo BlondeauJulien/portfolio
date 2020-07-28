@@ -13,7 +13,7 @@ const learnapp = {
     keyFeatures: [
       "Création, édition et suppression de compte.",
       "Création, édition et suppression de cours, mots et quiz.",
-      "Révision de vocabulaire avec un petit algorithme qui permet de revoir les mots avec lesquels on a du mal plus souvent.",
+      "Révision de vocabulaire avec un petit algorithme qui permet de revoir plus souvent les mots avec lesquels on a du mal.",
       "Administrateurs et moderateurs panel (ban utilisateur, supprimer cours, images...)."
     ],
     aboutTitle: 'À propos',

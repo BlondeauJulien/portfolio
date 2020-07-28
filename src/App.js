@@ -7,6 +7,7 @@ import Presentation from './presentation/main/Presentation';
 import UiState from './context/ui/UiState';
 import Projects from './projects/main/Projects';
 import Technologies from './technologies/main/Technologies';
+import Resume from './resume/main/Resume';
 
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
         <Presentation />
         <Projects />
         <Technologies />
+        <Resume />
       </div>
     </UiState>
   );
