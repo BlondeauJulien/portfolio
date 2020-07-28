@@ -7,3 +7,10 @@
   color: #1ba49c;
   font-size: 1.5rem;
 }
+
+@media (max-width: 400px) {   
+  #resume a {
+    color: #1ba49c;
+    font-size: 1.2rem;
+  }
+}

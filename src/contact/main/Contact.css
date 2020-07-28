@@ -1,0 +1,27 @@
+.contact__cont img {
+  width: 250px;
+}
+
+.contact__cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  color: #1ba49c;
+}
+
+.contact__cont * {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 400px) {   
+  .contact__cont img {
+    width: 200px;
+  }
+  
+  .contact__cont {
+    font-size: 1.1rem;
+    color: #1ba49c;
+  }
+}

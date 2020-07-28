@@ -24,8 +24,8 @@ const NavigationLinks = props => {
       )}
       <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#projects">{content[language].projects}</a></li>
       <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#technologies">{content[language].technologies}</a></li>
-      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="/">{content[language].resume}</a></li>
-      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="/">{content[language].contact}</a></li>
+      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#resume">{content[language].resume}</a></li>
+      <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#contact">{content[language].contact}</a></li>
     </ul>
   )
 }
