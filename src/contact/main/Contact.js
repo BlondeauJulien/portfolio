@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import UiContext from '../../context/ui/uiContext';
+import content from '../../content/contact';
 
 import PHONE from '../../images/telephone.png';
 
 import './Contact.css';
 
 const Contact = () => {
+  const uiContext = useContext(UiContext);
+
+  const { language } = uiContext;
+
   return (
     <div id="contact">
-      <h2 className="section-title">Me contacter</h2>
+      <h2 className="section-title">{content[language].title}</h2>
       <div className="contact__cont">
         <a href="mailto:julienblondeaupro@protonmail.com">julienblondeaupro@protonmail.com</a>
         <img src={PHONE} alt="phone number"></img>

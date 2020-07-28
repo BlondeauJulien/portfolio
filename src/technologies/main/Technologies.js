@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import UiContext from '../../context/ui/uiContext';
+import content from '../../content/technologies';
 
 import HTMLLogo from '../../images/technologiesLogos/html5.png';
 import CSS from '../../images/technologiesLogos/css.png';
@@ -18,11 +21,15 @@ import JQUERY from '../../images/technologiesLogos/jquery.png';
 import './Technologies.css';
 
 const Technologies = () => {
+  const uiContext = useContext(UiContext);
+
+  const { language } = uiContext;
+
   return (
     <div id="technologies">
-      <h2 className="section-title">Technologies</h2>
+      <h2 className="section-title">{content[language].title}</h2>
       <div className="technologies__cont">
-        <h3>J'utilise principalement:</h3>
+        <h3>{content[language].mainTech}:</h3>
         <ul>
           <li><img src={HTMLLogo} alt="html logo"/><span>html</span></li>
           <li><img src={CSS} alt="css logo"/><span>css</span></li>
@@ -36,7 +43,7 @@ const Technologies = () => {
         </ul>
       </div>
       <div className="technologies__cont">
-        <h3>J'ai aussi des connaissances en:</h3>
+        <h3>{content[language].secondaryTech}:</h3>
         <ul>
           <li><img src={TYPESCRIPT} alt="typescript logo"/><span>TypeScript</span></li>
           <li><img src={ANGULAR} alt="angular logo"/><span>Angular</span></li>

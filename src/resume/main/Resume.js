@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import UiContext from '../../context/ui/uiContext';
+import content from '../../content/resume';
 
 import './Resume.css';
 
 const Resume = () => {
+  const uiContext = useContext(UiContext);
+
+  const { language } = uiContext;
+
   return (
     <div id="resume">
-      <h2 className="section-title">Mon CV</h2>
-      <a href="/" target="_blank" download >Clicker ici pour voir mon CV (pdf)</a>
+      <h2 className="section-title">{content[language].title}</h2>
+      <a href="/" target="_blank" download >{content[language].btnText}</a>
     </div>
   )
 }
