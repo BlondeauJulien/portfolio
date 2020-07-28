@@ -36,7 +36,7 @@ const Technologies = () => {
         </ul>
       </div>
       <div className="technologies__cont">
-        <h3>J'ai aussi des connaissance en:</h3>
+        <h3>J'ai aussi des connaissances en:</h3>
         <ul>
           <li><img src={TYPESCRIPT} alt="typescript logo"/><span>TypeScript</span></li>
           <li><img src={ANGULAR} alt="angular logo"/><span>Angular</span></li>

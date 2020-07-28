@@ -10,7 +10,7 @@ const Header = props => {
 	const { drawerClickHandler } = props;
 
 	return (
-		<header className="header">
+		<header id="top" className="header">
 			<nav className="header__navigation">
 				<div className="header__logo">
 					<a href="/"><i className="fas fa-code logo"></i></a>

@@ -1,0 +1,29 @@
+.footer {
+  background: #33485F;
+}
+
+.footer__navigation-items .navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.footer__navigation-items .navigation li {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+.footer__infos {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  padding-bottom: 1.5rem;
+}

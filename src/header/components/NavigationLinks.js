@@ -20,7 +20,7 @@ const NavigationLinks = props => {
   return (
     <ul className="navigation" >
       {props.withHomeButton && (
-        <li className="navigation__link" onClick={closeDrawerOnClick}><a href="/">{content[language].home}</a></li>
+        <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#top">{content[language].home}</a></li>
       )}
       <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#projects">{content[language].projects}</a></li>
       <li className="navigation__link" onClick={closeDrawerOnClick}><a href="#technologies">{content[language].technologies}</a></li>

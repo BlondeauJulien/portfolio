@@ -9,6 +9,7 @@ import Projects from './projects/main/Projects';
 import Technologies from './technologies/main/Technologies';
 import Resume from './resume/main/Resume';
 import Contact from './contact/main/Contact';
+import Footer from './footer/main/Footer';
 
 import './App.css';
 
@@ -27,6 +28,7 @@ function App() {
         <Resume />
         <Contact />
       </div>
+      <Footer />
     </UiState>
   );
 }
