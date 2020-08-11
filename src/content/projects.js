@@ -144,7 +144,7 @@ const dartapp = {
       `,
       `
         Après s'être mis aux fléchettes avec des amis nous n'avons pas trouvé de site avec toutes les fonctionalités que nous
-        espérions. J'ai donc créer cette application sûr mesure pour nos parties et garder une trace de nos statistique/progression. 
+        espérions. J'ai donc créé cette application sûr mesure pour nos parties et garder une trace de nos statistique/progression. 
       `,
 
     ],
