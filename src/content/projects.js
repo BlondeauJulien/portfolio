@@ -4,23 +4,23 @@ const learnapp = {
   images: learnAppImagesArray,
   title: 'Learn language (flashcards & quizzes)',
   FR: {
-    appType: "Application Web Front End",
+    appType: "Application Web Full Stack",
     frontend: "Front End avec: HTML, CSS, Javascript ES6, React.",
     backend: "Back End avec: NodeJS, mongoDB.",
     test: "API écrite en développement par le test avec jest. Front-end testé avec react-testing-library et jest.",
-    responsive: "Responsive tablette et mobile.",
+    responsive: "Responsive design tablette et mobile.",
     keyFeaturesTitle: 'Fonctionnalités clés',
     keyFeatures: [
       "Création, édition et suppression de compte.",
-      "Création, édition et suppression de cours, mots et quiz.",
-      "Révision de vocabulaire avec un petit algorithme qui permet de revoir plus souvent les mots avec lesquels on a du mal.",
+      "Création, édition et suppression de cours, mots et quizzes.",
+      "Révision de vocabulaire avec un petit algorithme qui permet de revoir plus souvent les mots qui nous posent des difficultés.",
       "Administrateurs et moderateurs panel (ban utilisateur, supprimer cours, images...)."
     ],
     aboutTitle: 'À propos',
     about: [
       `
         Après avoir commencé à apprendre le norvégien et utilisé plusieurs applications d'apprentissage de langue j'ai pensé que 
-        créer ma propros petite application pourrait faire un bon projet portfolio. J'avais aussi envie d'un projet qui permette 
+        créer ma propre petite application pourrait faire un bon projet portfolio. J'avais aussi envie d'un projet qui permette 
         l'implementation de plusieurs rôles (Administrateurs, modérateurs et utilisateurs) ce que j'ai pu réaliser via celui-ci.
       `,
 
@@ -32,23 +32,23 @@ const learnapp = {
   },
 
   GB: {
-    appType: "Front End Web Application",
+    appType: "Full Stack Web Application",
     frontend: "Front End with: HTML, CSS, Javascript ES6, React.",
     backend: "Back End with: NodeJS and mongoDB.",
     test: "API wrote in Test Driven Development with jest. Front-end tested with react-testing-library and jest.",
-    responsive: "Responsive tablet and mobile.",
+    responsive: "Responsive design tablet and mobile.",
     keyFeaturesTitle: 'Key features',
     keyFeatures: [
-      "Create, edit, delete an account.",
+      "Create, edit, delete your account.",
       "Create, edit, delete courses, words, quizzes.",
-      "Vocanulary review via a small algorithm that permit to see the words you struggle on more often.",
+      "Vocabulary review via a small algorithm that permit to see the words you struggle with more often.",
       "Admin and moderator panel (ban user, delete courses, images...)."
     ],
     aboutTitle: 'About',
     about: [
       `
         After I started to learn norwegian and used a few languages apps I thought that building my own small language application could make 
-        a great portfolio project. I also wanted to implement different roles in my next project (Admins, Moderators, Users) and it was ticking the box.
+        a great portfolio project. I also wanted to implement different roles in my next project (Admins, Moderators, Users) and this was ticking the box.
       `,
 
     ],
@@ -80,7 +80,7 @@ const marmibon = {
       `
       Ayant pour philosophie "d'apprendre en faisant", 
       je me suis lancé dans la réalisation de cette application juste après avoir fini un cours sur React 
-      et appris les bases de nodeJS et mongoDB afin de consolider mes connaissances front end et d'apprendre pleinement
+      et appris les bases de nodeJS et mongoDB afin de consolider mes connaissances front end, d'apprendre pleinement
       la réalisation d'API et la gestion de bases de données.
       `,
       `
@@ -144,7 +144,7 @@ const dartapp = {
       `,
       `
         Après s'être mis aux fléchettes avec des amis nous n'avons pas trouvé de site avec toutes les fonctionalités que nous
-        espérions. J'ai donc créé cette application sûr mesure pour nos parties et garder une trace de nos statistique/progression. 
+        voulions. J'ai donc créé cette application sûr mesure pour nos parties et ainsi garder une trace de nos statistiques/progressions. 
       `,
 
     ],

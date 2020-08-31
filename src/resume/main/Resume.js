@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <div id="resume">
       <h2 className="section-title">{content[language].title}</h2>
-      <a href="/" target="_blank" download >{content[language].btnText}</a>
+      <a href={content[language].resume} target="_blank" rel="noopener noreferrer" download >{content[language].btnText}</a>
     </div>
   )
 }
