@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc04d2e558821fddfa20f6921243c2cc",
+    "revision": "36013329d6f433fa329d400997a30589",
     "url": "/index.html"
   },
   {
-    "revision": "9b2d29875b3628f64598",
+    "revision": "df9728c0099d5fd67b89",
     "url": "/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "698e72bca86b4fcda86e",
+    "revision": "4137400e612f6a545488",
     "url": "/static/css/main.d43fb766.chunk.css"
   },
   {
-    "revision": "9b2d29875b3628f64598",
-    "url": "/static/js/2.74496636.chunk.js"
+    "revision": "df9728c0099d5fd67b89",
+    "url": "/static/js/2.5cf77089.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.74496636.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5cf77089.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "698e72bca86b4fcda86e",
-    "url": "/static/js/main.bd088830.chunk.js"
+    "revision": "4137400e612f6a545488",
+    "url": "/static/js/main.c877b7d5.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
     "url": "/static/js/runtime-main.19ccc7f6.js"
+  },
+  {
+    "revision": "2d14a056b84eb34058ab2a00bd5558a7",
+    "url": "/static/media/CV_Julien_Blondeau_développeur_full_stack.2d14a056.pdf"
+  },
+  {
+    "revision": "a1b7c1e3741db1f8311bd446932c4b23",
+    "url": "/static/media/Julien_Blondeau_Resume_Full_Stack_Developer.a1b7c1e3.pdf"
   },
   {
     "revision": "a6c35682ceae7d7d177fcf370541014c",
