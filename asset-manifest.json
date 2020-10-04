@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d43fb766.chunk.css",
-    "main.js": "/static/js/main.c877b7d5.chunk.js",
-    "main.js.map": "/static/js/main.c877b7d5.chunk.js.map",
+    "main.css": "/static/css/main.651b629f.chunk.css",
+    "main.js": "/static/js/main.545ac3d9.chunk.js",
+    "main.js.map": "/static/js/main.545ac3d9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.fb346933.chunk.css": "/static/css/2.fb346933.chunk.css",
-    "static/js/2.5cf77089.chunk.js": "/static/js/2.5cf77089.chunk.js",
-    "static/js/2.5cf77089.chunk.js.map": "/static/js/2.5cf77089.chunk.js.map",
+    "static/js/2.3446e545.chunk.js": "/static/js/2.3446e545.chunk.js",
+    "static/js/2.3446e545.chunk.js.map": "/static/js/2.3446e545.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.99c38121c3ba77b210b3d019e0ac6971.js": "/precache-manifest.99c38121c3ba77b210b3d019e0ac6971.js",
+    "precache-manifest.d73a54eab09f0dd6af39adb0fa4299d1.js": "/precache-manifest.d73a54eab09f0dd6af39adb0fa4299d1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/static/css/2.fb346933.chunk.css.map",
-    "static/css/main.d43fb766.chunk.css.map": "/static/css/main.d43fb766.chunk.css.map",
-    "static/js/2.5cf77089.chunk.js.LICENSE.txt": "/static/js/2.5cf77089.chunk.js.LICENSE.txt",
+    "static/css/main.651b629f.chunk.css.map": "/static/css/main.651b629f.chunk.css.map",
+    "static/js/2.3446e545.chunk.js.LICENSE.txt": "/static/js/2.3446e545.chunk.js.LICENSE.txt",
     "static/media/CV_Julien_Blondeau_développeur_full_stack.pdf": "/static/media/CV_Julien_Blondeau_développeur_full_stack.2d14a056.pdf",
     "static/media/Julien_Blondeau_Resume_Full_Stack_Developer.pdf": "/static/media/Julien_Blondeau_Resume_Full_Stack_Developer.a1b7c1e3.pdf",
     "static/media/App.css": "/static/media/background.a6c35682.png",
@@ -30,20 +30,23 @@
     "static/media/learn-quiz1.PNG": "/static/media/learn-quiz1.ec5ec6c0.PNG",
     "static/media/learn-quiz2.PNG": "/static/media/learn-quiz2.3f2d7560.PNG",
     "static/media/learn-word.PNG": "/static/media/learn-word.4a1fdcc7.PNG",
+    "static/media/learnlanguagevideo.gif": "/static/media/learnlanguagevideo.69b407c4.gif",
     "static/media/marmibon-comment-section.png": "/static/media/marmibon-comment-section.8303dfc5.png",
     "static/media/marmibon-home.PNG": "/static/media/marmibon-home.76d5e3d1.PNG",
     "static/media/marmibon-profile.PNG": "/static/media/marmibon-profile.5026eed9.PNG",
     "static/media/marmibon-recipe.PNG": "/static/media/marmibon-recipe.a9e781eb.PNG",
     "static/media/marmibon-register.PNG": "/static/media/marmibon-register.ff6a3c08.PNG",
     "static/media/marmibon-search.PNG": "/static/media/marmibon-search.6178071d.PNG",
+    "static/media/marmibonpresentation.gif": "/static/media/marmibonpresentation.f89fe2f4.gif",
     "static/media/mongodb.png": "/static/media/mongodb.d515ef60.png",
-    "static/media/nodejs.png": "/static/media/nodejs.e43276fc.png"
+    "static/media/nodejs.png": "/static/media/nodejs.e43276fc.png",
+    "static/media/scoringdartspresentation.gif": "/static/media/scoringdartspresentation.62aed2f6.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.fb346933.chunk.css",
-    "static/js/2.5cf77089.chunk.js",
-    "static/css/main.d43fb766.chunk.css",
-    "static/js/main.c877b7d5.chunk.js"
+    "static/js/2.3446e545.chunk.js",
+    "static/css/main.651b629f.chunk.css",
+    "static/js/main.545ac3d9.chunk.js"
   ]
 }
