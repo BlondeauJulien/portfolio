@@ -17,6 +17,7 @@ const Contact = () => {
       <h2 className="section-title">{content[language].title}</h2>
       <div className="contact__cont">
         <a href="mailto:julienblondeaupro@protonmail.com">julienblondeaupro@protonmail.com</a>
+        <a href="https://www.linkedin.com/in/julien-blondeau-61a0541b5/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <img src={PHONE} alt="phone number"></img>
       </div>
     </div>

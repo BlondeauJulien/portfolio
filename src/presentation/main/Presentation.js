@@ -18,6 +18,14 @@ const Presentation = () => {
         <h1 className="presentation__first-line">JULIEN BLONDEAU</h1>
         <p className="presentation__second-line">{content[language].whoIAm1} <span>{content[language].whoIAm2}</span></p>
       </div>
+      <div className="presentation__logos">
+        <a href="https://github.com/BlondeauJulien" target="_blank" rel="noopener noreferrer" title={content[language].hoverTextGithubLink}>
+        <i class="fab fa-github github-logo"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/julien-blondeau-61a0541b5/" target="_blank" rel="noopener noreferrer" title={content[language].hoverTextLinkedinLink}>
+          <i class="fab fa-linkedin linkedin-logo"></i>
+        </a>
+      </div>
     </div>
   )
 }
