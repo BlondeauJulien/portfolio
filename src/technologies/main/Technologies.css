@@ -45,6 +45,14 @@
   padding-top: 20px;
 }
 
+.center-php {
+  padding-top: 20px
+}
+
+.firebase-logo {
+  width: 55px !important;
+}
+
 @media (max-width: 400px) {   
   .technologies__cont li {
     height: 70px;

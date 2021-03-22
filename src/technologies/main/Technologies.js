@@ -17,6 +17,11 @@ import ANGULAR from '../../images/technologiesLogos/angular.png';
 import SQL from '../../images/technologiesLogos/sql.png';
 import BOOTSTRAP from '../../images/technologiesLogos/bootstrap.png';
 import JQUERY from '../../images/technologiesLogos/jquery.png';
+import PHP from '../../images/technologiesLogos/php.svg.png';
+import SYMFONY from '../../images/technologiesLogos/symfony.png';
+import FIREBASE from '../../images/technologiesLogos/firebase.png';
+import CONTENTFUL from '../../images/technologiesLogos/contentful.png';
+import SANITY from '../../images/technologiesLogos/sanity.png';
 
 import './Technologies.css';
 
@@ -50,6 +55,11 @@ const Technologies = () => {
           <li><img src={SQL} alt="sql logo"/><span>SQL</span></li>
           <li><img src={BOOTSTRAP} alt="bootstrap logo"/><span>Bootstrap</span></li>
           <li><img src={JQUERY} alt="jquery logo"/><span>jQuery</span></li>
+          <li><img src={PHP} alt="php logo" className="center-php"/><span>php</span></li>
+          <li><img src={SYMFONY} alt="symfony logo" /><span>Symfony</span></li>
+          <li><img src={FIREBASE} alt="firebase logo" className="firebase-logo"/><span>Firebase</span></li>
+          <li><img src={CONTENTFUL} alt="symfony logo" /><span>Contentful</span></li>
+          <li><img src={SANITY} alt="symfony logo" /><span>Sanity.io</span></li>
         </ul>
       </div>
     </div>

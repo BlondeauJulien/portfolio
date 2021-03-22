@@ -132,10 +132,10 @@ const dartapp = {
     responsive: "Responsive desktop & tablette seulement.",
     keyFeaturesTitle: 'Fonctionnalités clés',
     keyFeatures: [
-      "Cible clickable.",
+      "Cible cliquable.",
       "Sauvegarde de la data de chaque partie.",
       "Visualisation des statistiques des joueurs.",
-      "Mise à jour instantané après chaque flèche lancée des meilleurs sortie possible pour gagner."
+      "Mise à jour instantané (après chaque flèche lancée) des meilleurs sortie possible pour gagner."
     ],
     aboutTitle: 'À propos',
     about: [
@@ -144,7 +144,7 @@ const dartapp = {
       `,
       `
         Après s'être mis aux fléchettes avec des amis nous n'avons pas trouvé de site avec toutes les fonctionalités que nous
-        voulions. J'ai donc créé cette application sûr mesure pour nos parties et ainsi garder une trace de nos statistiques/progressions. 
+        voulions. J'ai donc créé cette application sur-mesure pour nos parties et ainsi garder une trace de nos statistiques/progressions. 
       `,
 
     ],
